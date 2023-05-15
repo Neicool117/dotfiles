@@ -197,6 +197,6 @@ bindsym $mod+r mode "resize"
 
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
-exec_always --no-startup-id feh --bg-scale $HOME/Pictures/catppuccin-wallpaper.png
+exec_always --no-startup-id feh --bg-fill $HOME/Pictures/catppuccin-wallpaper.png
 
 exec_always --no-startup-id picom -b --config $HOME/.config/picom.conf
